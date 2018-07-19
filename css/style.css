@@ -324,7 +324,7 @@ section {
   min-height: 100vh;
   width: 100%;
   background-color: #141C31;
-  background: url(../images/beerzoom1920x1080.jpg);
+  background: url(../images/beerzoom1920x1080.jpg)no-repeat center center fixed;
 }
 
 #section-4 {
@@ -1845,7 +1845,7 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 @media all and (max-width: 768px) {
 	
   .hero {
-    background-image: url(../img/BlockChain005 - mobile.JPG);
+    background-image: url(../img/BlockChain005.JPG);
   }
 
   .absomid {
