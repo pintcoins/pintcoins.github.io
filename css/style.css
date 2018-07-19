@@ -1845,7 +1845,20 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 @media all and (max-width: 768px) {
 	
   .hero {
-    background-image: url(../img/Pint001pub.JPG);  
+    //background-image: url(../img/Pint001pub.JPG);  
+    
+    
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #1F2535;
+  background: url(../img/BlockChain005.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10%;
+  
     
   }
 
@@ -1937,7 +1950,7 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
   }
 }
 
-//added to address issues with safari browser and mobile devices
+/*//added to address issues with safari browser and mobile devices
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {html {  
 
     background: url('../img/BlockChain005 - mobile.JPG') no-repeat top center fixed;
@@ -1960,4 +1973,4 @@ body {
 
     -webkit-overflow-scrolling: touch;
 
-}}
+}} */
