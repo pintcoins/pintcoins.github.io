@@ -324,7 +324,7 @@ section {
   min-height: 100vh;
   width: 100%;
   background-color: #141C31;
-  background: url(../images/beerzoom1920x1080.jpg)no-repeat center center fixed;
+  background: url(../images/beerzoom1920x1080.jpg);
 }
 
 #section-4 {
@@ -1874,6 +1874,11 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 }
 
 @media all and (max-width: 600px) {
+
+.hero {
+    background-image: url(../img/BlockChain005.JPG); //7.19 to support low res devices
+  }
+
 	
   .social-btn-container {
     width: 320px;
@@ -1905,6 +1910,7 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 }
 
 @media all and (max-width: 480px) {
+
   h1#title-1 {
     font-size: 16px;
     margin-top: 6vh;
