@@ -1845,7 +1845,8 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 @media all and (max-width: 768px) {
 	
   .hero {
-    background-image: url(../img/BlockChain005 - mobile.JPG);
+    background-image: url(../img/BlockChain005 - mobile.JPG);  
+    
   }
 
   .absomid {
@@ -1874,10 +1875,6 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 }
 
 @media all and (max-width: 600px) {
-
-.hero {
-    background-image: url(../img/BlockChain005 - mobile.JPG); //7.19 to support low res devices
-  }
 
 	
   .social-btn-container {
@@ -1911,10 +1908,6 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 
 @media all and (max-width: 480px) {
 
-.hero {
-    background-image: url(../img/BlockChain005 - mobile.JPG); //7.19 to support low res devices
-  }
-
 
   h1#title-1 {
     font-size: 16px;
@@ -1943,3 +1936,28 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
     width: 320px;
   }
 }
+
+//added to address issues with safari browser and mobile devices
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {html {  
+
+    background: url('../img/BlockChain005 - mobile.JPG') no-repeat top center fixed;
+
+    background-size: cover;
+
+    height: 100%;
+
+    overflow: hidden;
+
+}
+
+ 
+
+body {  
+
+    height:100%;
+
+    overflow: scroll;
+
+    -webkit-overflow-scrolling: touch;
+
+}}
