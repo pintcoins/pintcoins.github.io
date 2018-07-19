@@ -1850,8 +1850,6 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
    
    
    background-image: url(../imgages/PINTBlockchains.jpg);
-   background-repeat: no-repeat;
-   background-attachment: fixed;
    background-size: cover;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -1881,7 +1879,6 @@ body {
 	
   .hero {
     background-image: url(../img/Pint001pub.JPG);  //this will show alt background if triggered
-    
  
   }
 
