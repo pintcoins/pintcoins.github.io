@@ -1847,19 +1847,13 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
   .hero {
     //background-image: url(../img/Pint001pub.JPG);  
     
-    
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  background-color: #1F2535;
+   //added lines 
+  height: 100%;
+  //background-color: #1F2535;
   background: url(../img/BlockChain005 - mobile.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  padding-top: 10%;
+  overflow: hidden;
   
-    
   }
 
   .absomid {
