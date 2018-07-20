@@ -1897,6 +1897,16 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 @media all and (max-width: 600px) {
 
 	
+   .hero {
+    background-image: url(../img/Pint001pub.JPG);  //this will show alt background if triggered
+      background-position: center center;
+      background-repeat: no-repeat;
+      width:auto;
+      
+  }
+   
+   
+   
   .social-btn-container {
     width: 320px;
     bottom: 30%;
