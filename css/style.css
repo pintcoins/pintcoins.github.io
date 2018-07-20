@@ -307,7 +307,7 @@ strong {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   padding-top: 10%;
 }
 
@@ -1843,7 +1843,6 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 }
 
 
-
 /*//added to address issues with safari browser and mobile devices
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {html {  
 
@@ -1860,10 +1859,6 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
    background-repeat: no-repeat;}
 
 }*/
-
- 
-
-
 
 
 @media all and (max-width: 768px) {
