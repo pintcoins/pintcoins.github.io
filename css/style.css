@@ -1850,6 +1850,7 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
     background-image: url(../img/BlockChain005 - mobile.jpg);  
       background-position: center center;
       background-repeat: no-repeat;
+      background-attachment: initial;
   }
 
   .absomid {
