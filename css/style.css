@@ -1843,34 +1843,18 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 }
 
 
-/*//added to address issues with safari browser and mobile devices
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {html {  
-
-   
-   
-   background-image: url(../imgages/PINTBlockchains.jpg);
-   background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   height: 100%;
-   width: 100%;
-   background-position: center center;
-   background-repeat: no-repeat;}
-
-}*/
-
 
 @media all and (max-width: 768px) {
 	
   .hero {
-    background-image: url(../img/BlockChain005 - mobile.jpg);  //this will show alt background if triggered
+    background-image: url(../img/BlockChain005 - mobile.jpg);  
       background-position: center center;
       background-repeat: no-repeat;
   }
 
   .absomid {
-    width: 94%;
+    width: 80%;
+    height: 80%;
   }
 
   .cbp-qtrotator blockquote p {
@@ -1898,7 +1882,7 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 
 	
    .hero {
-    background-image: url(../img/BlockChain005 - mobile.jpg);  //this will show alt background if triggered
+    background-image: url(../img/BlockChain005 - mobile.jpg);  
       background-position: center center;
       background-repeat: no-repeat;
       width:auto;
