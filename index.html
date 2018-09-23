@@ -232,7 +232,18 @@
               <h5 class="title0">PintCoin Donation Fund</h5>
               <p>PintCoin is self-funded and is currently absorbing all expenses. Donations to PintCoin are greatly appreciated. Pintcoin is in early stages and development is moving rapidly to get the first Dapp released.
               Thank you for supporting the development. While not required, for any donations made please contact us so we can give back with a promo gift. All Eth donations will recieve this automatically.</p>
-               <p><span style="font-size: 10pt; color: black; font-family: calibri, sans-serif;"><span style="color: #0000ff;"><strong>ETH</strong></span> <span style="color: #0000ff;">0xCcC5439897803b866a5DCf0bD51D3cd060a1e227</span></span></p>
+               <p><span style="font-size: 10pt; color: black; font-family: calibri, sans-serif;"><span style="color: #0000ff;"><strong>ETH</strong></span> 
+               <!-- <span style="color: #0000ff;">0xCcC5439897803b866a5DCf0bD51D3cd060a1e227</span> -->
+               <!-- Eth input -->
+                  <input type="text" size="7" id="amount" />
+                  
+                  <!-- Donation Button -->
+                  <button class="eth_tip_button">
+                    <a href="#"  id="eth_tip_button" onclick="onEthTipButtonClick();">MetaMask - Donate ETH</a>
+                  </button>
+               
+               </span></p>
+               
                 <p><span style="font-size: 10pt; color: black; font-family: calibri, sans-serif;"><span style="color: #ff6600;"><strong>BTC</strong></span> <span style="color: #0000ff;">33f6xdhZhoFUaobsvdiXtqpM7oPsWniQtk</span></span></p>
                 <p><span style="font-size: 10pt; color: black; font-family: calibri, sans-serif;"><span style="color: #999999;"><strong>LTC</strong></span> <span style="color: #0000ff;">MSM2SytLRRyiCMPbD5gEgXYdkxYPRJxdyS</span></span></p>
                 <p><span style="font-size: 10pt; color: black; font-family: calibri, sans-serif;"><span style="color: #339966;"><strong>ETC</strong></span> <span style="color: #0000ff;">0x0Bbc0043af97638a4b3BC6cd16a2461cd0a61F6D</span></span></p>
@@ -433,15 +444,11 @@
 </script> 
 <script src="js/functions.js"></script> 
 <script src="js/particle.js"></script> 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-15815880-3']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+
+<!-- metamask -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@0.20.6/dist/web3.min.js"></script> -->
+<script src="js/metamask.js"></script>   
+
+
 </body>
 </html>

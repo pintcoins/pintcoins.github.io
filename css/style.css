@@ -1668,6 +1668,22 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
   padding-left: 5%;
 }
 
+
+//tip-button style
+
+#eth_tip_button {
+	position: relative;
+	display: inline-block;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #ffffff;
+	background: #00a968;
+}
+
+
+
 @media all and (min-width: 1600px) {
 	
   h1#title-1 {
